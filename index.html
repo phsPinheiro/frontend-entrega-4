@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega IV – Acessibilidade e Deploy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Entrega IV — Acessibilidade e Deploy</h1>
+
+    <nav aria-label="Menu principal">
+        <ul class="menu">
+            <li><a href="#conteudo">Conteúdo</a></li>
+            <li><a href="#acessibilidade">Acessibilidade</a></li>
+        </ul>
+    </nav>
+
+    <div class="tema-buttons">
+        <button id="btnDark" class="btn">🌙 Modo Escuro</button>
+        <button id="btnContrast" class="btn">🌓 Alto Contraste</button>
+    </div>
+</header>
+
+
+<main id="conteudo" tabindex="-1">
+    <h2>Bem-vindo</h2>
+    <p>Este projeto implementa acessibilidade, versionamento e deploy profissional.</p>
+
+    <section id="acessibilidade" aria-labelledby="tituloAcessibilidade">
+        <h2 id="tituloAcessibilidade">Recursos de Acessibilidade</h2>
+
+        <ul>
+            <li>Navegação por teclado</li>
+            <li>Estrutura totalmente semântica</li>
+            <li>Contraste WCAG AA</li>
+            <li>Modo escuro acessível</li>
+            <li>Modo alto contraste</li>
+        </ul>
+
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

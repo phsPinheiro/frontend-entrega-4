@@ -1,0 +1,56 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #111111;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navegação */
+.menu {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+/* Botões */
+.btn {
+    padding: .6rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: .5rem;
+    background: #0055ff;
+    color: white;
+    border-radius: 6px;
+}
+
+.btn:focus {
+    outline: 3px solid #ffbf00;
+}
+
+/* MODO ESCURO */
+.dark-mode {
+    background: #222;
+    color: #f1f1f1;
+}
+
+.dark-mode .btn {
+    background: #333;
+    color: #fff;
+}
+
+/* MODO ALTO CONTRASTE */
+.high-contrast {
+    background: #000;
+    color: #fff !important;
+}
+
+.high-contrast .btn {
+    background: #ffff00 !important;
+    color: #000 !important;
+}
