@@ -8,3 +8,5 @@ btnDark.addEventListener("click", () => {
 btnContrast.addEventListener("click", () => {
     document.body.classList.toggle("high-contrast");
 });
+console.log("Terceira melhoria de acessibilidade carregado");
+
